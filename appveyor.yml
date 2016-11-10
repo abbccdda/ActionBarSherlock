@@ -1,0 +1,10 @@
+install:
+  - mvn clean install
+
+test_script:
+  - mvn test -B 
+
+cache:
+  - '%HOMEPATH%\.m2' 
+
+build: off
